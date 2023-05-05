@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rm -rf dist",
+    "build": "cp index.html dist/ && cp -R firebase dist/ && cp -R .firebase dist/"
   },
   "author": "",
   "license": "ISC"
