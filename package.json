@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "cp index.html dist/ && cp -R firebase dist/ && cp -R .firebase dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
